@@ -1,10 +1,13 @@
-﻿namespace ConsoleApp1
+﻿namespace Monster_Battle
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Monster Trainer!");
+            Game game = new Game();
+
+            game.RuneGame();
+
         }
     }
 }
